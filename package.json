@@ -1,0 +1,29 @@
+{
+  "name": "passport-authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rene",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "express-session": "^1.16.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.4",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-azure-ad": "^4.1.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
