@@ -56,7 +56,7 @@ router.post('/login', auth.optional, (req, res, next) => {
         if (err) {
             return next(err);
         }
-
+        console.log('PASSPORT USER ',passportUser);
         if (passportUser) {
             const user = passportUser;
             user.token = passportUser.generateJWT();
